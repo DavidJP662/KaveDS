@@ -1,0 +1,13 @@
+object monthlySalaries
+{
+  "John" : 40000;
+  "Emma" : 55000;
+  "Jared" : 35000;
+  "Companies" : ["Software Engineering", "Linguistics", "Economics"];
+}
+
+object familySizes
+{
+  "Has Family" : ["John", "yes", "Emma", "yes", "Jared", "no"]
+  "Family Size" : ["John", 5, "Emma", 3]
+}
