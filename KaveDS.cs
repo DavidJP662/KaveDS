@@ -11,7 +11,7 @@ class KaveDS
     public List<string> fileObjects { get; set;}
     public List<string> fileObjectsNames { get; set; }
     public Dictionary<string, object> fileObjectsDict {get; set;}
-    public Dictionary<string, string> keyValuePairs {get; set;}
+
     
     public KaveDS(string dir)
     {
