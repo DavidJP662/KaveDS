@@ -1,4 +1,5 @@
 KaveDS stands for Key And Value Element Data Storage and is an alternative to Json.
+It uses key and value elements (Important: Each element must be on one line, not multiple)
 It is simpler and doesn't offer as complex storage. 
 It has similar but different syntax. 
 It works like this: In the file you have objects with keys and elements inside. You define objects by typing "object", pressing space and typing the objects name. Then you put {} like in an if statement: For example:
@@ -29,5 +30,7 @@ When creating an object of the KaveDS class, you need to enter the directory. It
 Other information:
 When you make an array in the file you have to make it like this: [1, 2, 3, "hello"] (the values are just examples).
 When you use an array in SetValueByKey you need to input it as such: new dynamic[] {1, 2, 3} (the values are just examples).
+You also have to end every element in a .kaveds file with a ;
+
 
 Oh, and please leave feedback and/or report bugs!
