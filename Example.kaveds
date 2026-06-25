@@ -8,6 +8,6 @@ object monthlySalaries
 
 object familySizes
 {
-  "Has Family" : ["John", "yes", "Emma", "yes", "Jared", "no"]
-  "Family Size" : ["John", 5, "Emma", 3]
+  "Has Family" : ["John", "yes", "Emma", "yes", "Jared", "no"];
+  "Family Size" : ["John", 5, "Emma", 3];
 }
