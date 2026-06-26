@@ -4,6 +4,16 @@ It is simpler and doesn't offer as complex storage.
 It has similar but different syntax. 
 It works like this: In the file you have objects with keys and elements inside. You define objects by typing "object", pressing space and typing the objects name. Then you put {} like in an if statement, see tue Example.kaveds file
 
+How to use:
+Download the latest .nupkg file from the **Releases** folder.
+If you want to add it to your project:
+In the command prompt, paste dotnet add package kaveDS --source "[The directory to the folder of the .nupkg file]" in your project
+If you want to add it to your whole computer:
+Create a folder where you store your libraries or use one if you already have (or just use a permanent folder)
+Paste this into the command prompt **one time** dotnet nuget add source "[The directory to the folder of the .nupkg file]" --name "[Your folders name or a nickname]"
+Then when you want to add it to a project and you have added it globally just type dotnet add package kaveDS
+Then you just need to add "using kaveDS" in the top of you .cs file.
+
 Here are explanations of all the class members of KaveDS in the .cs file:
 Methods (recomended to use):
 GetValueByKey: Returns the value of a key by using two string parameters, the first one is the object that the key is nestled within's name, the second one is the key's name.
