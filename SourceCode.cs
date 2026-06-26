@@ -15,7 +15,7 @@ public class KaveDSParser
     public Dictionary<string, object> fileObjectsDict {get; set;}
 
     
-    public KaveDS(string dir)
+    public KaveDSParser(string dir)
     {
         this.dir = dir;
         if(!dir.EndsWith(".kaveds"))
