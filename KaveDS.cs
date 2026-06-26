@@ -1,9 +1,8 @@
-using System.IO;
-using System.Collections.Generic;
-using System.Linq;
-using System.Globalization;
-using System.ComponentModel;
-
+global using System.IO;
+global using System.Collections.Generic;
+global using System.Linq;
+global using System.Globalization;
+global using System.ComponentModel;
 public class KaveDS
 {
     public string dir { get; set; }
@@ -34,6 +33,8 @@ public class KaveDS
                this.fileObjectsDict.Add(firstLine, obj);
                 
             }
+
+        
         
     }
 
