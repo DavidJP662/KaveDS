@@ -3,7 +3,10 @@ global using System.Collections.Generic;
 global using System.Linq;
 global using System.Globalization;
 global using System.ComponentModel;
-public class KaveDS
+
+namespace KaveDS;
+
+public class KaveDSParser
 {
     public string dir { get; set; }
     public string fileText { get; set; }
