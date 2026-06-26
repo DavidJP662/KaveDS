@@ -11,7 +11,7 @@ In the command prompt, paste dotnet add package kaveDS --source "[The directory 
 If you want to add it to your whole computer:
 Create a folder where you store your libraries or use one if you already have (or just use a permanent folder).
 Paste this into the command prompt **one time** dotnet nuget add source "[The directory to the folder of the .nupkg file]" --name "[Your folders name or a nickname]".
-Then when you want to add it to a project and you have added it globally just type dotnet add package kaveDS.
+Then when you want to add it to a project and you have added it globally just type dotnet add package kaveDS in the command prompt in you project.
 Then you just need to add "using kaveDS" in the top of you .cs file.
 
 Here are explanations of all the class members of KaveDS in the .cs file:
