@@ -3,6 +3,10 @@ name: .NET Build and Pack
 on:
   workflow_dispatch:
 
+permissions:
+    id-token: write
+    contents: read
+
 jobs:
   build:
     runs-on: windows-latest
@@ -22,5 +26,9 @@ jobs:
     - name: Build project
       run: dotnet build --no-restore --configuration Release
 
-    - name: Skapa NuGet-paket (.nupkg)
+    - name: Create NuGet-package (.nupkg)
       run: dotnet pack --no-build --configuration Release --output ./nupkg
+
+
+    - name: Publish to NuGet.org
+      run: dotnet nuget push ./nupkg/*.nupkg --source https://nuget.org --skip-duplicate
